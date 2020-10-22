@@ -1,0 +1,82 @@
+html{
+    height: 100%;
+}
+body {
+    background-image: url("../Images/grey-cloth-bg.jpg");
+    background-color: #cccccc;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+} 
+
+
+ /*            Styles for the header and navbar            */
+header  a {
+    font-size: 1.3rem;
+}
+
+#name-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color:  #4aaaa5;
+    color: #f8f9fa;
+}
+.active {
+    font-size: 1.5rem;
+}
+
+
+
+/*            General Styles in the main container            */
+.off-white-background {
+    background-color: #f8f9fa;
+}
+.profile-img {
+    width: 250px;
+    height: auto;
+}
+.text-color {
+    color:  #4aaaa5;
+}
+.btn-color {
+    background-color: #4aaaa5;
+    color: #f8f9fa;
+}
+
+
+
+ /*                 This is the footer styles                   */
+footer {
+    border-top: 4px solid  #4aaaa5;
+}
+.footer-btm {
+
+    margin-top: auto;
+}
+footer ul li a {
+    color: #4aaaa5;
+    font-weight: 500;
+}
+.footer-icon {
+    font-size: 32px;
+    color:  #4aaaa5;
+
+}
+
+
+/*  Media query to help the style look better on small devices       */
+@media (max-width: 575.98px) { 
+ 
+    .center-img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .small-br-margin-2 {
+            margin-right: 3%;
+            margin-left: 3%;
+      }
+      .center-sm {
+        margin-left: 25%;
+    }
+   }
