@@ -10,7 +10,16 @@ body {
     display: flex;
     flex-direction: column;
 } 
-
+/* __________________________COLORS SCHEME____________________________ */
+.blue-text {
+    color: #40d6ff!important;
+}
+.dark-grey-bg {
+    background-color: #3a3e42
+}
+.p-text {
+    color: #a3baca!important
+}
 
  /*            Styles for the header and navbar            */
 header  a {
@@ -36,7 +45,7 @@ header  a {
     height: auto;
 }
 .btn-color {
-    background-color: #6c757d!important;;
+    background-color: #6c757d!important;
     color: #f8f9fa;
 }
 
@@ -44,21 +53,32 @@ header  a {
 
  /*                 This is the footer styles                   */
 footer {
-    border-top: 4px solid  #6c757d!important;;
+    border-top: 4px solid  #40d6ff!important;
+}
+.center-block {
+    margin: .5rem auto;
+    /* text-align: center; */
 }
 .footer-btm {
 
     margin-top: auto;
 }
-footer ul li a {
-    color: #6c757d!important;;
+footer a {
+    color: #40d6ff!important;
     font-weight: 500;
 }
 .footer-icon {
     font-size: 32px;
-    color:  #6c757d!important;;
+    color:  #40d6ff!important;
 
 }
+
+
+@media (max-width: 990px) {
+    .center-sm {
+        margin-left: 30%;
+    }
+ }
 
 
 /*  Media query to help the style look better on small devices       */
@@ -69,11 +89,8 @@ footer ul li a {
         margin-left: auto;
         margin-right: auto;
       }
-      .small-br-margin-2 {
-            margin-right: 3%;
-            margin-left: 3%;
-      }
-      .center-sm {
-        margin-left: 25%;
+    .small-br-margin-2 {
+        margin-right: 3%;
+        margin-left: 3%;
     }
-   }
+}
