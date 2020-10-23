@@ -33,6 +33,12 @@ header  a {
 .active {
     font-size: 1.5rem;
 }
+hr {
+    border-top: 1px solid #40d6ff
+}
+.bg-grey {
+    background-color: #d0d0d0;
+}
 
 
 
@@ -48,7 +54,11 @@ header  a {
     background-color: #7c7c7c!important;
     color: #40d6ff;
 }
-
+.project-img {
+    width: 350px;
+    height: 280px;
+    border: 4px solid #6c757d;
+}
 
 
  /*                 This is the footer styles                   */
