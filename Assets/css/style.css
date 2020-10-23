@@ -20,8 +20,6 @@ header  a {
 #name-text {
     font-size: 1.5rem;
     font-weight: bold;
-    background-color:  #4aaaa5;
-    color: #f8f9fa;
 }
 .active {
     font-size: 1.5rem;
@@ -37,11 +35,8 @@ header  a {
     width: 250px;
     height: auto;
 }
-.text-color {
-    color:  #4aaaa5;
-}
 .btn-color {
-    background-color: #4aaaa5;
+    background-color: #6c757d!important;;
     color: #f8f9fa;
 }
 
@@ -49,19 +44,19 @@ header  a {
 
  /*                 This is the footer styles                   */
 footer {
-    border-top: 4px solid  #4aaaa5;
+    border-top: 4px solid  #6c757d!important;;
 }
 .footer-btm {
 
     margin-top: auto;
 }
 footer ul li a {
-    color: #4aaaa5;
+    color: #6c757d!important;;
     font-weight: 500;
 }
 .footer-icon {
     font-size: 32px;
-    color:  #4aaaa5;
+    color:  #6c757d!important;;
 
 }
 
