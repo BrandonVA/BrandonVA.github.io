@@ -5,7 +5,7 @@ body {
     background-image: url("../Images/grey-cloth-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-color: #cccccc;
+    /* background-color: #cccccc; */
     min-height: 100%;
     display: flex;
     flex-direction: column;
@@ -33,9 +33,7 @@ header  a {
 .active {
     font-size: 1.5rem;
 }
-hr {
-    border-top: 1px solid #40d6ff
-}
+
 .bg-grey {
     background-color: #d0d0d0;
 }
@@ -43,6 +41,9 @@ hr {
 
 
 /*            General Styles in the main container            */
+hr {
+    border-top: 1px solid #40d6ff
+}
 .off-white-background {
     background-color: #f8f9fa;
 }
