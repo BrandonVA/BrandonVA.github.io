@@ -30,6 +30,6 @@ This is my portfolio page where you can learn more about me and the work I do. I
 
 
 # License 
-
+- MIT
 
 © Brandon VanAllen
