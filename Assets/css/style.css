@@ -2,7 +2,7 @@ html{
     height: 100%;
 }
 body {
-    background-image: url("../Images/landing-page.jpg");
+    background-image: url("../Images/grey-cloth-bg.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -94,6 +94,21 @@ footer a {
     color:  #bd5f3b!important;
 
 }
+
+/* _________________________STYLES FOR TEST.HTML______________________________ */
+.cb-bp {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.logo {
+    margin-left: 1rem;
+}
+.logo i {
+    padding-right: .5rem;
+}
+
+
+
 
 @media (max-width: 1200px) { 
  
