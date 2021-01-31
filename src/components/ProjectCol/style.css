@@ -1,0 +1,9 @@
+img.cardImg {
+  display: block;
+  min-height: 300px;
+  max-height: 300px;
+}
+
+.col {
+  margin-top: 2rem;
+}
