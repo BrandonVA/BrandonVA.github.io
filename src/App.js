@@ -8,6 +8,8 @@ import Home from "./pages/Home";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 
+import "./App.css";
+
 function App() {
   return (
     <Router>
