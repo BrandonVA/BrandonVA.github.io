@@ -8,9 +8,8 @@ const Home = () => {
       width: "35%",
       height: "auto",
       minWidth: "300px",
-    },
-    headingOne: {
-      color: "white",
+      display: "flex",
+      justifyContent: "space-between",
     },
   };
   window.document.title = "Brandon VanAllen | Home";
@@ -19,19 +18,14 @@ const Home = () => {
       <Row>
         <Col className="text-center">
           <div>
-            <h1 style={styles.headingOne} className=" h1">
-              Hello I'm Brandon VanAllen
-            </h1>
+            <h1 className="">Hello I'm Brandon VanAllen</h1>
             <img
               style={styles.colImage}
-              className="text-center mx-auto profile-pic"
+              className="text-center mx-auto profile-pic my-5"
               src={`${process.env.PUBLIC_URL}/images/ProfileImg.jpg`}
               alt="profile-pic"
             />
-            <h3 className="" style={styles.headingOne}>
-              {" "}
-              Full Stack Web Developer
-            </h3>
+            <h3 className=""> Full Stack Web Developer</h3>
           </div>
         </Col>
       </Row>
