@@ -4,14 +4,12 @@ import Col from "react-bootstrap/Col";
 
 const Home = () => {
   const styles = {
-    colInfo: {
-      width: "40%",
+    colImage: {
+      width: "35%",
       height: "auto",
+      minWidth: "300px",
     },
     headingOne: {
-      // display: "flex",
-      // justifyContent: "flex-end",
-      // marginRight: "3rem",
       color: "white",
     },
   };
@@ -21,27 +19,20 @@ const Home = () => {
       <Row>
         <Col className="text-center">
           <div>
-            <h1 style={styles.headingOne} className="headingFonts">
+            <h1 style={styles.headingOne} className=" h1">
               Hello I'm Brandon VanAllen
             </h1>
-
             <img
-              style={styles.colInfo}
-              className="text-center mx-auto"
-              // style={{ width: "400px", height: "auto" }}
+              style={styles.colImage}
+              className="text-center mx-auto profile-pic"
               src={`${process.env.PUBLIC_URL}/images/ProfileImg.jpg`}
               alt="profile-pic"
             />
-            <h3 className="headingFonts" style={styles.headingOne}>
+            <h3 className="" style={styles.headingOne}>
               {" "}
               Full Stack Web Developer
             </h3>
           </div>
-          {/* </Col>
-        <Col
-          className="text-white"
-          style={(styles.colInfo, { margin: 0, padding: 0 })}
-        > */}
         </Col>
       </Row>
     </>
