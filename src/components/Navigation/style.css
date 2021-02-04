@@ -1,0 +1,35 @@
+.active {
+  font-weight: bolder;
+}
+a.navLink,
+.navbarBrand {
+  color: #e0e0e0;
+  text-decoration: none;
+}
+a.navLink:hover,
+.navbarBrand:hover {
+  color: grey;
+  text-decoration: none;
+}
+
+a.navLink {
+  margin: 0px 10px;
+}
+.bg-nav {
+  background: #21392b;
+}
+.navbar {
+  border-bottom: solid 1px grey;
+}
+
+@media (max-width: 575.98px) {
+  .card {
+    margin: 5px 0.8rem;
+  }
+}
+
+@media (max-width: 998.98px) {
+  a.navLink {
+    margin: 10px;
+  }
+}
