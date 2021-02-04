@@ -7,15 +7,17 @@ import "./style.css";
 const ProjectCard = ({ title, deployedUrl, repoUrl, image, desc }) => {
   return (
     <Col>
-      <Card>
+      <Card className="shadow">
         <Card.Img
           variant="top"
-          class={"cardImg"}
+          className={"cardImg"}
           src={`${process.env.PUBLIC_URL}/images/${image}`}
         />
-        <Card.Body>
+        <Card.Body className="pb-0">
           <Card.Title>{title}</Card.Title>
-          <Card.Text>{desc}</Card.Text>
+          <Card.Text>
+            {desc !== undefined ? desc : "This is sample project text"}
+          </Card.Text>
           <Breadcrumb className="mt-3">
             <Breadcrumb.Item href={deployedUrl}>Visit</Breadcrumb.Item>
             <Breadcrumb.Item href={repoUrl}>Github Repo</Breadcrumb.Item>

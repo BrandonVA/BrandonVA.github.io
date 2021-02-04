@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import Navigation from "./components/Navigation";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import Container from "react-bootstrap/Container";
@@ -13,9 +13,9 @@ import "./App.css";
 function App() {
   return (
     <Router>
-      <div style={{ background: "#020202" }}>
-        <Navbar />
-        <Container fluid style={{ minHeight: "100%", background: "#020202" }}>
+      <div className="bg-color">
+        <Navigation />
+        <Container>
           <Wrapper>
             <Route exact path="/" component={Home} />
             <Route exact path="/portfolio" component={Portfolio} />

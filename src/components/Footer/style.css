@@ -1,11 +1,14 @@
 .footer {
-  background: #020202;
-  border-top: 1px solid grey;
+  background: #21392b;
+  border-top: 1px solid black;
 }
 .footerIcon {
   margin-right: 5px;
 }
 .footer a,
-p {
-  color: white;
+p.footer-text {
+  color: #e0e0e0;
+}
+.center-sm {
+  text-align: center;
 }
