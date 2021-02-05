@@ -15,7 +15,7 @@ function App() {
     <Router>
       <div className="bg-color">
         <Navigation />
-        <Container>
+        <Container fluid>
           <Wrapper>
             <Route exact path="/" component={Home} />
             <Route exact path="/portfolio" component={Portfolio} />
