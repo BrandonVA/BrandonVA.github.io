@@ -5,6 +5,7 @@ body {
 } */
 
 body,
+h1,
 h3,
 h4,
 h5,
@@ -26,10 +27,6 @@ div.list-group-item {
 .sm-center {
   text-align: center;
   margin: 0 auto;
-}
-h1 {
-  color: #21392b;
-  font-size: large;
 }
 
 .bg-color {
