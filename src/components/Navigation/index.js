@@ -13,16 +13,10 @@ function Navigation() {
     <Navbar expand="lg" className="bg-nav" variant="dark">
       <Link className="navbarBrand" to="/" style={{ fontSize: "1.6rem" }}>
         <img
-          style={{
-            width: "1.5rem",
-            height: "1.5rem",
-            marginRight: "5px",
-            paddingBottom: "2px",
-          }}
           src={`${process.env.PUBLIC_URL}/favicon_io/favicon-32x32.png`}
           alt=""
         />
-        Brandon VanAllen
+        {/* Brandon VanAllen */}
       </Link>
       <Navbar.Toggle aria-controls="collapseNav" />
       <Navbar.Collapse id="collapseNav">
@@ -48,7 +42,6 @@ function Navigation() {
           >
             Contact
           </Link>
-          {/* <Nav.Link href="#link">Link</Nav.Link> */}
         </Nav>
       </Navbar.Collapse>
     </Navbar>
