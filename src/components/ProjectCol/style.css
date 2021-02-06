@@ -11,6 +11,9 @@ img.cardImg {
 .col {
   margin-top: 2rem;
 }
+div.card-title.h5 {
+  color: #2f503d;
+}
 ol.breadcrumb {
   display: flex;
   justify-content: center;
@@ -19,7 +22,7 @@ ol.breadcrumb {
   text-align: center;
 }
 ol.breadcrumb a {
-  color: #888888;
+  color: #2f503d;
 }
 
 /* // Extra small devices (portrait phones, less than 576px)
@@ -56,3 +59,8 @@ ol.breadcrumb a {
 
 // Extra large devices (large desktops)
 // No media query since the extra-large breakpoint has no upper bound on its width */
+
+ol.breadcrumb a:hover {
+  font-size: 1.2rem;
+  text-decoration: none;
+}
