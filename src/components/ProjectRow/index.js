@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import Row from "react-bootstrap/Row";
+import { Row } from "react-bootstrap";
 import ProjectCol from "../ProjectCol/index";
 import ProjectsContext from "../../utils/ProjectsContext";
 
