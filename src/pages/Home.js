@@ -38,9 +38,10 @@ const Home = () => {
               alt="profile-pic"
             />
           </div>
-          <Row className="mt-5">
+          {/*className="mt-5"*/}
+          <Row>
             <Col className="my-5 px-0">
-              <div className="my-5 mainIcons">
+              <div className="mainIcons" style={{ marginTop: "12%" }}>
                 <FontAwesomeIcon
                   size="5x"
                   icon={faTabletAlt}
@@ -82,6 +83,15 @@ const Home = () => {
                   excited to change my career into something that is challenging
                   and has a lot of room to grow.
                 </p>
+                <a
+                  role="button"
+                  href="https://drive.google.com/file/d/1Od54oFr9ANJICuush1jC9uPcXz4hEI5I/view?usp=sharing"
+                  class="btn btn-color m-3"
+                  target="_blank"
+                  className="btn btn-secondary my-2"
+                >
+                  Resume{" "}
+                </a>
               </div>
             </Col>
           </Row>
@@ -124,7 +134,7 @@ const Home = () => {
                   database.
                 </p>
                 <h5>Technologies</h5>
-                <p>Node.js, Express.js, MongoDB,MySQL</p>
+                <p>Node.js, Express.js, MongoDB, MySQL</p>
                 <h5>Some Dev Tools</h5>
                 <ListGroup variant="flush">
                   <ListGroup.Item>Mongoose</ListGroup.Item>
