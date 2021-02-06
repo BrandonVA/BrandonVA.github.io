@@ -19,7 +19,9 @@ const ProjectCard = ({ title, deployedUrl, repoUrl, image, desc }) => {
             {desc !== undefined ? desc : "This is sample project text"}
           </Card.Text>
           <Breadcrumb className="mt-3">
-            <Breadcrumb.Item href={deployedUrl}>Visit</Breadcrumb.Item>
+            <Breadcrumb.Item className="heading-text" href={deployedUrl}>
+              Visit
+            </Breadcrumb.Item>
             <Breadcrumb.Item href={repoUrl}>Github Repo</Breadcrumb.Item>
           </Breadcrumb>
         </Card.Body>
