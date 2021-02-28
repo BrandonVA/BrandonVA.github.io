@@ -4,6 +4,7 @@ import ProjectRow from "../components/ProjectRow/index";
 import ProjectsContext from "../utils/ProjectsContext";
 import projects from "../utils/projectData";
 import ProjectHeading from "../components/ProjectHeading/ProjectHeading";
+import FeaturedProject from "../components/FeaturedProject";
 
 const Portfolio = () => {
   window.document.title = "Brandon VanAllen | Portfolio";
@@ -12,6 +13,7 @@ const Portfolio = () => {
       <ProjectsContext.Provider value={projects}>
         <ProjectHeading />
         <Container>
+          <FeaturedProject />
           <ProjectRow />
         </Container>
       </ProjectsContext.Provider>

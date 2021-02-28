@@ -1,0 +1,14 @@
+@media only screen and (max-width: 992px) {
+  .featured-img {
+    width: 100% !important;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .card {
+    flex-direction: column !important;
+  }
+  .subContainer {
+    width: 100% !important;
+  }
+}

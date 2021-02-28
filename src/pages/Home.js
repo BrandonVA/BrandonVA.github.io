@@ -85,10 +85,11 @@ const Home = () => {
                 </p>
                 <a
                   role="button"
-                  href="https://drive.google.com/file/d/1Od54oFr9ANJICuush1jC9uPcXz4hEI5I/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1Ro1wsa1GlYnbvYNjyxM9-lAt-fHOs0kQ/view?usp=sharing"
                   class="btn btn-color m-3"
                   target="_blank"
                   className="btn btn-secondary my-2"
+                  rel="noreferrer"
                 >
                   Resume{" "}
                 </a>

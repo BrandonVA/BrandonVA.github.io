@@ -15,28 +15,28 @@ const projectData = [
     desc:
       "This is a simple weather app that gets the weather for a given city and displays a 5 day forecast.",
   },
-  {
-    title: "Note Taker",
-    deployedUrl: "https://still-castle-69913.herokuapp.com/",
-    repoUrl: "https://github.com/BrandonVA/Note-Taker",
-    image: "note-taker.png",
-    desc: "Basic not taking app that uses a json file for a database",
-  },
-  {
-    title: "Burger App",
-    deployedUrl: "https://floating-taiga-94665.herokuapp.com/",
-    repoUrl: "https://github.com/BrandonVA/Burger-App",
-    image: "Burger-App.png",
-    desc:
-      "This app lets your keep track of what burgers you like to devour. it uses a MySQL database.",
-  },
+  // {
+  //   title: "Note Taker",
+  //   deployedUrl: "https://still-castle-69913.herokuapp.com/",
+  //   repoUrl: "https://github.com/BrandonVA/Note-Taker",
+  //   image: "note-taker.png",
+  //   desc: "Basic not taking app that uses a json file for a database",
+  // },
+  // {
+  //   title: "Burger App",
+  //   deployedUrl: "https://floating-taiga-94665.herokuapp.com/",
+  //   repoUrl: "https://github.com/BrandonVA/Burger-App",
+  //   image: "Burger-App.png",
+  //   desc:
+  //     "This app lets your keep track of what burgers you like to devour. it uses a MySQL database.",
+  // },
   {
     title: "Naughty or Nice",
     deployedUrl: "https://evening-springs-93825.herokuapp.com/",
     repoUrl: "https://github.com/NirmalaAbothu/Naughty_or_Nice",
     image: "NorN.png",
     desc:
-      "This is Christmas list tracker that uses a MongoDB and Passport for user Authentication",
+      "This is Christmas list tracker that uses a mySQL database and Passport for user Authentication",
   },
   {
     title: "Fitness Tracker",
@@ -45,14 +45,14 @@ const projectData = [
     image: "fitness-tracker.png",
     desc: "This is a site that keeps track of a users workouts using a MongoDB",
   },
-  {
-    title: "Budget Tracker",
-    deployedUrl: "https://shielded-escarpment-32907.herokuapp.com/",
-    repoUrl: "https://github.com/BrandonVA/Budget-Tracker",
-    image: "budget-tracker.png",
-    desc:
-      "This is a Progressive Web App that can be used offline it tracks a users budget.",
-  },
+  // {
+  //   title: "Budget Tracker",
+  //   deployedUrl: "https://shielded-escarpment-32907.herokuapp.com/",
+  //   repoUrl: "https://github.com/BrandonVA/Budget-Tracker",
+  //   image: "budget-tracker.png",
+  //   desc:
+  //     "This is a Progressive Web App that can be used offline it tracks a users budget.",
+  // },
   {
     title: "Employee Directory",
     deployedUrl: "https://github.com/BrandonVA/Employee-Directory",
